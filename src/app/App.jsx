@@ -5,7 +5,7 @@ import { HowItWorks } from "./components/HowItWorks";
 import { ProductPreview } from "./components/ProductPreview";
 import { Pricing } from "./components/Pricing";
 import { FinalCTA } from "./components/FinalCTA";
-// import { EGrowFooter } from "./components/EGrowFooter";
+import { EGrowFooter } from "./components/EGrowFooter";
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
       <ProductPreview />
       <Pricing />
       <FinalCTA />
-      {/* <EGrowFooter /> */}
+      <EGrowFooter />
     </div>
   );
 }
