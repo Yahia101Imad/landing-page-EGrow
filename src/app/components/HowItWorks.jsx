@@ -1,23 +1,23 @@
-import { UserPlus, Link, BarChart } from "lucide-react";
+import { UserPlus, FileText, BarChart } from "lucide-react";
 
 const steps = [
   {
     icon: UserPlus,
     number: "01",
     title: "Create Your Account",
-    description: "Sign up in seconds and claim your unique EGrow link. No credit card required.",
+    description: "Sign up in seconds to access all Crise tools and features. No credit card required.",
   },
   {
-    icon: Link,
+    icon: FileText,
     number: "02",
-    title: "Add Your Links",
-    description: "Customize your bio page with all your important links, social profiles, and content.",
+    title: "Add CRises Data",
+    description: "Input key information about your CRises to get a full, detailed analysis.",
   },
   {
     icon: BarChart,
     number: "03",
-    title: "Track & Grow",
-    description: "Monitor your analytics, understand your audience, and optimize for maximum engagement.",
+    title: "Track Progress",
+    description: "Monitor results and follow recommendations to make fast, informed decisions.",
   },
 ];
 

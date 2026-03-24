@@ -8,10 +8,10 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">E</span>
+              <span className="text-white font-bold text-lg">C</span>
             </div>
             <span className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              EGrow
+              CRise
             </span>
           </div>
           

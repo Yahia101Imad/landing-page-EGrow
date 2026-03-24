@@ -17,19 +17,19 @@ export function FinalCTA() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 mb-8">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium">Join 10,000+ creators today</span>
+            <span className="text-sm font-medium">Join 10,000+ CRise managers today</span>
           </div>
           
           {/* Headline */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-6 leading-tight">
-            Ready to Grow Your
+            Ready to Manage Your
             <br />
-            Online Presence?
+            CRises Effectively?
           </h2>
           
           {/* Description */}
           <p className="text-xl md:text-2xl mb-12 opacity-90 leading-relaxed max-w-2xl mx-auto">
-            Join the waitlist and be among the first to experience the future of bio links and social media growth.
+            Join the waitlist and be among the first to experience the power of CRise—track, analyze, and optimize your CRises like never before.
           </p>
           
           {/* Waitlist Form */}
@@ -57,15 +57,15 @@ export function FinalCTA() {
           <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto pt-12 border-t border-white/20">
             <div>
               <div className="text-3xl md:text-4xl font-bold mb-1">10K+</div>
-              <div className="text-sm opacity-80">Happy Users</div>
+              <div className="text-sm opacity-80">Active CRise Managers</div>
             </div>
             <div>
               <div className="text-3xl md:text-4xl font-bold mb-1">2M+</div>
-              <div className="text-sm opacity-80">Links Created</div>
+              <div className="text-sm opacity-80">CRises Tracked</div>
             </div>
             <div>
               <div className="text-3xl md:text-4xl font-bold mb-1">150+</div>
-              <div className="text-sm opacity-80">Countries</div>
+              <div className="text-sm opacity-80">Countries Covered</div>
             </div>
           </div>
         </div>

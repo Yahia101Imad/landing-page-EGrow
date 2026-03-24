@@ -6,12 +6,12 @@ const plans = [
   {
     name: "Free",
     price: "$0",
-    description: "Perfect for getting started",
+    description: "Perfect to start managing your CRises",
     features: [
-      "Unlimited links",
+      "Track unlimited CRises",
       "Basic analytics",
-      "Mobile optimized",
-      "Custom bio page",
+      "Mobile-optimized dashboard",
+      "Custom CRise hub",
       "Email support",
     ],
     cta: "Get Started",
@@ -19,18 +19,18 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "$9",
+    price: "$18",
     period: "/month",
-    description: "For serious creators",
+    description: "For serious CRise managers",
     features: [
       "Everything in Free",
-      "Advanced analytics",
-      "Custom domains",
-      "Remove EGrow branding",
+      "Advanced CRise analytics",
+      "Custom dashboards",
+      "Remove CRise branding",
       "Priority support",
-      "Detailed insights",
-      "Export data",
-      "Custom themes",
+      "Detailed CRise insights",
+      "Export CRise reports",
+      "Custom themes and layouts",
     ],
     cta: "Start Free Trial",
     popular: true,
@@ -53,7 +53,7 @@ export function Pricing() {
             Pricing
           </h2>
           <p className="text-xl text-gray-600">
-            Choose the plan that works best for you. Upgrade or downgrade anytime.
+            Choose the plan that fits your CRises management needs. Upgrade or downgrade anytime.
           </p>
         </div>
         

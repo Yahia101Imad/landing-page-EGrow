@@ -21,16 +21,15 @@ export function EGrowHero() {
           
           {/* Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl mb-6 leading-tight">
-            Grow Your Online{" "}
+            Master CRises Smartly with{" "}
             <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Presence
+              Crise
             </span>
-            {" "}Effortlessly
           </h1>
           
           {/* Description */}
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            The all-in-one platform to manage your bio links, track analytics, and boost engagement across all your social media channels.
+            An innovative tool to manage COD customers and turn challenges into opportunities effortlessly "Rise your commerce with CRise".
           </p>
           
           {/* CTA Buttons */}

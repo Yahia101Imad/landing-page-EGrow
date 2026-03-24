@@ -1,41 +1,41 @@
-import { Link2, BarChart3, Users, Zap, Shield, Palette } from "lucide-react";
 import { Card, CardContent } from "./ui/card";
+import { Activity, Bell, FileText, Zap, Shield, Palette } from "lucide-react";
 
 const features = [
   {
-    icon: Link2,
-    title: "Smart Bio Links",
-    description: "Create beautiful, customizable bio link pages that showcase all your important links in one place.",
+    icon: Activity,
+    title: "Smart Crisis Analysis",
+    description: "Crise provides precise insights to understand crises and make the right decisions.",
     gradient: "from-purple-500 to-blue-500",
   },
   {
-    icon: BarChart3,
-    title: "Advanced Analytics",
-    description: "Track clicks, views, and engagement with real-time analytics and detailed insights.",
+    icon: Bell,
+    title: "Instant Alerts",
+    description: "Stay informed with real-time notifications whenever important events occur.",
     gradient: "from-blue-500 to-indigo-500",
   },
   {
-    icon: Users,
-    title: "Audience Insights",
-    description: "Understand your audience better with demographic data and behavior patterns.",
+    icon: FileText,
+    title: "Custom Reports",
+    description: "Generate detailed reports to track progress and take appropriate actions.",
     gradient: "from-indigo-500 to-purple-500",
   },
   {
     icon: Zap,
     title: "Lightning Fast",
-    description: "Optimized performance ensures your links load instantly, keeping your audience engaged.",
+    description: "Optimized performance ensures Crise responds instantly when managing crises.",
     gradient: "from-purple-500 to-pink-500",
   },
   {
     icon: Shield,
     title: "Secure & Reliable",
-    description: "Enterprise-grade security with 99.9% uptime to keep your links always accessible.",
+    description: "Enterprise-grade security with 99.9% uptime to keep your data always protected.",
     gradient: "from-pink-500 to-blue-500",
   },
   {
     icon: Palette,
     title: "Full Customization",
-    description: "Design your pages to match your brand with custom themes, colors, and layouts.",
+    description: "Design your crisis management dashboards with custom themes, colors, and layouts.",
     gradient: "from-blue-500 to-purple-500",
   },
 ];

@@ -5,20 +5,20 @@ export function ProductPreview() {
   return (
     <section className="py-20 lg:py-32 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
-        {/* Bio Link Preview */}
+        {/* Crisis Management Preview */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-32">
           <div className="order-2 lg:order-1">
             <div className="inline-block px-4 py-2 rounded-full bg-purple-100 text-purple-700 text-sm font-medium mb-4">
-              Bio Link Page
+              Crisis Dashboard
             </div>
             <h2 className="text-4xl md:text-5xl mb-6">
-              Your Personal{" "}
+              Your Central{" "}
               <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                Digital Hub
+                Crisis Hub
               </span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Create a stunning bio link page that showcases all your content in one place. Fully customizable to match your brand and style.
+              Manage CRises efficiently, track progress, and turn challenges into opportunities with Crise. Fully customizable dashboards and insights tailored for you.
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
@@ -26,8 +26,8 @@ export function ProductPreview() {
                   <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Unlimited Links</h4>
-                  <p className="text-gray-600">Add as many links as you need without restrictions.</p>
+                  <h4 className="font-semibold mb-1">Unlimited Crisis Tracking</h4>
+                  <p className="text-gray-600">Monitor as many CRises as needed with no restrictions.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -35,8 +35,8 @@ export function ProductPreview() {
                   <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Custom Themes</h4>
-                  <p className="text-gray-600">Choose from beautiful templates or create your own.</p>
+                  <h4 className="font-semibold mb-1">Customizable Dashboards</h4>
+                  <p className="text-gray-600">Arrange charts, alerts, and reports to fit your workflow.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -44,8 +44,8 @@ export function ProductPreview() {
                   <div className="w-2 h-2 bg-indigo-600 rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Mobile Optimized</h4>
-                  <p className="text-gray-600">Looks perfect on every device and screen size.</p>
+                  <h4 className="font-semibold mb-1">Mobile Friendly</h4>
+                  <p className="text-gray-600">Access your crisis hub anytime, anywhere, on any device.</p>
                 </div>
               </div>
             </div>
@@ -58,13 +58,13 @@ export function ProductPreview() {
                 <div className="bg-gradient-to-br from-purple-600 to-blue-600 rounded-2xl p-8 text-white text-center">
                   <div className="w-24 h-24 bg-white rounded-full mx-auto mb-4 overflow-hidden">
                     <ImageWithFallback 
-                      src="https://images.unsplash.com/photo-1758598497351-6e9daec2f2a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBwaG9uZSUyMG1vY2t1cCUyMGludGVyZmFjZXxlbnwxfHx8fDE3NzQzNDY0MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                      alt="Profile"
+                      src="https://images.unsplash.com/photo-1573495612937-d3b112c5a58c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg"
+                      alt="Crisis Dashboard"
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">@yourhandle</h3>
-                  <p className="text-sm text-white/80 mb-6">Content Creator & Influencer</p>
+                  <h3 className="text-xl font-semibold mb-2">@CriseDashboard</h3>
+                  <p className="text-sm text-white/80 mb-6">Crisis Management Platform</p>
                 </div>
                 <div className="space-y-3 mt-6">
                   <div className="h-14 bg-white rounded-xl shadow-sm border border-gray-100"></div>
@@ -87,12 +87,12 @@ export function ProductPreview() {
                   <div className="bg-gradient-to-br from-purple-500 to-blue-500 rounded-2xl p-6 text-white">
                     <Eye className="w-8 h-8 mb-3" />
                     <div className="text-3xl font-bold mb-1">12.5K</div>
-                    <div className="text-sm text-white/80">Total Views</div>
+                    <div className="text-sm text-white/80">Total CRises Monitored</div>
                   </div>
                   <div className="bg-gradient-to-br from-blue-500 to-indigo-500 rounded-2xl p-6 text-white">
                     <MousePointer className="w-8 h-8 mb-3" />
                     <div className="text-3xl font-bold mb-1">8.2K</div>
-                    <div className="text-sm text-white/80">Link Clicks</div>
+                    <div className="text-sm text-white/80">Actions Taken</div>
                   </div>
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6">
@@ -136,7 +136,7 @@ export function ProductPreview() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Get real-time analytics and detailed insights into how your audience engages with your content. Make informed decisions to grow faster.
+              Get real-time analytics and detailed insights into how CRises are handled, helping you make informed decisions and optimize your strategies.
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
@@ -144,8 +144,8 @@ export function ProductPreview() {
                   <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Real-Time Tracking</h4>
-                  <p className="text-gray-600">Monitor clicks and views as they happen in real-time.</p>
+                  <h4 className="font-semibold mb-1">Real-Time Monitoring</h4>
+                  <p className="text-gray-600">Track CRises and actions as they happen in real-time.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -153,8 +153,8 @@ export function ProductPreview() {
                   <div className="w-2 h-2 bg-indigo-600 rounded-full"></div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">Geographic Data</h4>
-                  <p className="text-gray-600">See where your audience is coming from around the world.</p>
+                  <h4 className="font-semibold mb-1">Global Overview</h4>
+                  <p className="text-gray-600">See where CRises occur and how they are managed worldwide.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -163,7 +163,7 @@ export function ProductPreview() {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Export Reports</h4>
-                  <p className="text-gray-600">Download detailed reports for deeper analysis.</p>
+                  <p className="text-gray-600">Download detailed reports for deeper analysis and decision-making.</p>
                 </div>
               </div>
             </div>

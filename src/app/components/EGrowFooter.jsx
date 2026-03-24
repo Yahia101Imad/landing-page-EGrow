@@ -13,14 +13,14 @@ export function EGrowFooter() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">E</span>
+                <span className="text-white font-bold text-lg">C</span>
               </div>
               <span className="text-xl font-semibold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                EGrow
+                CRise
               </span>
             </div>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Grow your online presence with powerful bio links and analytics.
+              Manage and monitor your CRises efficiently with powerful analytics and insights.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-gray-200 hover:bg-purple-600 flex items-center justify-center transition-colors group">
@@ -44,7 +44,7 @@ export function EGrowFooter() {
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-600 hover:text-purple-600 transition-colors">Features</a></li>
               <li><a href="#" className="text-gray-600 hover:text-purple-600 transition-colors">Pricing</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-purple-600 transition-colors">Templates</a></li>
+              <li><a href="#" className="text-gray-600 hover:text-purple-600 transition-colors">CRise Templates</a></li>
               <li><a href="#" className="text-gray-600 hover:text-purple-600 transition-colors">Integrations</a></li>
               <li><a href="#" className="text-gray-600 hover:text-purple-600 transition-colors">Changelog</a></li>
             </ul>
@@ -78,7 +78,7 @@ export function EGrowFooter() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-600 text-sm">
-            © 2026 EGrow. All rights reserved.
+            © 2026 CRise. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-gray-600 hover:text-purple-600 transition-colors">Privacy Policy</a>
