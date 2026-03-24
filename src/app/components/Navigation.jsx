@@ -19,7 +19,6 @@ export function Navigation() {
             <a href="#features" className="text-gray-700 hover:text-purple-600 transition-colors">Features</a>
             <a href="#how-it-works" className="text-gray-700 hover:text-purple-600 transition-colors">How It Works</a>
             <a href="#pricing" className="text-gray-700 hover:text-purple-600 transition-colors">Pricing</a>
-            <a href="#testimonials" className="text-gray-700 hover:text-purple-600 transition-colors">Testimonials</a>
           </div>
           
           <div className="flex items-center gap-4">
