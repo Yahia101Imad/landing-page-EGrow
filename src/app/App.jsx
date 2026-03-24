@@ -1,6 +1,6 @@
 import { Navigation } from "./components/Navigation";
 import { EGrowHero } from "./components/EGrowHero";
-// import { EGrowFeatures } from "./components/EGrowFeatures";
+import { EGrowFeatures } from "./components/EGrowFeatures";
 // import { HowItWorks } from "./components/HowItWorks";
 // import { ProductPreview } from "./components/ProductPreview";
 // import { EGrowTestimonials } from "./components/EGrowTestimonials";
@@ -13,7 +13,7 @@ export default function App() {
     <div className="min-h-screen">
       <Navigation />
       <EGrowHero />
-      {/* <EGrowFeatures /> */}
+      <EGrowFeatures />
       {/* <HowItWorks /> */}
       {/* <ProductPreview /> */}
       {/* <EGrowTestimonials /> */}
